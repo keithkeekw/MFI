@@ -1,6 +1,6 @@
 /* Description: This is script is to find out user with multiple Group
-   Author: Kee, Ee Hang and Yi Fan
-   Date: 11 May 2022
+Author: Kee, Ee Hang and Yi Fan
+Date: 11 May 2022
 */
 
 SELECT UG.UserID, U.UserDisplayName, UG.GroupID, G.GroupName

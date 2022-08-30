@@ -1,6 +1,3 @@
-/*
-Objective: To find out the table reside in which physical file
-*/
 select o.Name as TableName, fg.groupname as FileGroupName 
 from sysobjects o 
  inner join sysindexes i 

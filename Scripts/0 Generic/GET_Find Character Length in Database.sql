@@ -1,11 +1,4 @@
----
-Tags: SQL, script
-Client: Generic
----
-
-# Find Character Length in Database
-
-```sql
+--- Find Character Length in Database
 DECLARE @TableName nvarchar(max) = 'msaMusic'
 SELECT
 	COLUMN_NAME,
@@ -14,5 +7,3 @@ SELECT
 	CHARACTER_MAXIMUM_LENGTH
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = @TableName
-```
-
