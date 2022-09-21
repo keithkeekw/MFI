@@ -22,7 +22,7 @@ AND P.PlanningDuration = 0000
 SELECT
 	*
 FROM msaPresentation
-WHERE PlanningID = 
+WHERE PlanningID = 12345
 
 --- Delete the record from msaPlanning
 DELETE FROM msaPlanning
